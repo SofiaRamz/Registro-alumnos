@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+label {
+    flex: 1; /* Asegura que las etiquetas ocupen el mismo espacio */
+    text-align: right;
+}
+
+input {
+    flex: 2; /* Los inputs ocuparán más espacio que las etiquetas */
+    padding: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+button {
+    align-self: center; /* Centra el botón dentro del formulario */
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #808080;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #808080;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+thead {
+    background-color: #808080;
+    color: white;
+}
